@@ -1,6 +1,6 @@
 # Node.js EEG Brain Signals, Machine Learning to Control Sphero 2.0
 
-This application is to translate EEG mental commands from Emotiv Insight to control Sphero 2.0 robot to turn left, right or stop.
+This application is to translate EEG mental commands from Emotiv Insight to control Sphero 2.0 robot to go forward PUSH, backward PULL. It is tested with Emotiv Insight.
 
 ## Run the app locally
 
