@@ -42,9 +42,10 @@ So, your Sphero port will be at
 
 /dev/tty.Sphero-XXX-XXX-XXX
 
-## Note while try to connect Sphero robot
+## While try to connect Sphero robot
 if any problem with Serialport to Node Server for Sphero please goto node_modules⁩ ▸ ⁨sphero⁩ ▸ ⁨lib⁩ ▸ ⁨adaptors⁩ then change serialport.js the following script (maybe line 54 or 55):
 
 `//port = this.serialport = new serialport.SerialPort(this.conn, {});`
+
 `port = this.serialport = new serialport(this.conn, {});`
 
