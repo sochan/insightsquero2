@@ -1,6 +1,6 @@
 # Node.js EEG Brain Signals, Machine Learning to Control Sphero 2.0
 
-This application is to translate EEG mental commands from Emotiv Insight to control Sphero 2.0 robot to go forward PUSH, backward PULL. It is tested with Emotiv Insight.
+This application is to translate EEG mental commands from Emotiv Insight to control Sphero 2.0 robot to go forward PUSH, backward PULL. It was tested with Emotiv Insight.
 
 
 ## Demo
@@ -42,7 +42,7 @@ So, your Sphero port will be at
 
 /dev/tty.Sphero-XXX-XXX-XXX
 
-## While try to connect Sphero robot
+## If error while trying to connect Sphero robot
 if any problem with Serialport to Node Server for Sphero please goto node_modules⁩ ▸ ⁨sphero⁩ ▸ ⁨lib⁩ ▸ ⁨adaptors⁩ then change serialport.js the following script (maybe line 54 or 55):
 
 `//port = this.serialport = new serialport.SerialPort(this.conn, {});`
