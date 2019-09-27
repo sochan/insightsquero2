@@ -2,6 +2,11 @@
 
 This application is to translate EEG mental commands from Emotiv Insight to control Sphero 2.0 robot to go forward PUSH, backward PULL. It is tested with Emotiv Insight.
 
+
+## Demo
+[![Watch the video](https://img.youtube.com/vi/TAonz6efaSM/maxresdefault.jpg)](https://youtu.be/TAonz6efaSM)
+
+
 ## Run the app locally
 
 1. [Install Node.js][]
