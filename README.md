@@ -18,3 +18,26 @@ This application is to translate EEG mental commands from Emotiv Insight to cont
 1. Access the running app in a browser at <http://localhost:6001/live.html>
 
 [Install Node.js]: https://nodejs.org/en/download/
+
+
+
+
+## Sphero 2.0 
+
+By Mr. Miller Wang please see [here](https://github.com/MTSPD/Sphero)
+
+
+
+1. Run `npm install sphero serialport`
+
+## Connecting to Sphero/SPRK
+
+OS X or read the full tutorial for Windows or other OS [here](https://github.com/orbotix/sphero.js)
+
+To connect to your Sphero 1.0/2.0 or SPRK, you first need to pair it. To pair your device on OS X, open the Bluetooth settings in System Preferences > Bluetooth. From this menu, locate your Sphero in the Devices list and click the Pair button to pair it with your computer.
+
+Once you've successfully paired your Sphero, open your terminal, go to your /dev folder and locate the serial device connection (or use ls -a /dev | grep tty.Sphero) for your newly paired Sphero; it should look something like tty.Sphero-RGB-AMP-SPP. Note, your device will likely be different depending on its preset color code (the three colors your Sphero cycles through when you first turn it on). The previous example is for a Sphero with a Red, Green and Blue (RGB) color code.
+
+So, your Sphero port will be at
+
+/dev/tty.Sphero-XXX-XXX-XXX
