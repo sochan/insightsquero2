@@ -1,0 +1,6 @@
+[
+  "{\"id\":5,\"jsonrpc\":\"2.0\",\"result\":{\"failure\":[],\"success\":[{\"cols\":[\"act\",\"pow\"],\"sid\":\"7f9526e5-11a7-4e84-aaf2-d0bc677a15a6\",\"streamName\":\"com\"}]}}",
+  "{\"com\":[\"neutral\",0],\"sid\":\"7f9526e5-11a7-4e84-aaf2-d0bc677a15a6\",\"time\":1568083541.0536}",
+  "{\"com\":[\"neutral\",0],\"sid\":\"7f9526e5-11a7-4e84-aaf2-d0bc677a15a6\",\"time\":1568083569.1715}",
+  "{\"com\":[\"neutral\",0],\"sid\":\"7f9526e5-11a7-4e84-aaf2-d0bc677a15a6\",\"time\":1568083569.2977}"
+]
