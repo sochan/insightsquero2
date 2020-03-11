@@ -6,7 +6,7 @@ This application is to translate EEG mental commands from Emotiv Insight to cont
 ## Demo
 [![EEG Mental Commands Demo](https://media.giphy.com/media/lqYUEtMTwyOjKjpP4L/giphy.gif)](https://youtu.be/TAonz6efaSM)
 
-[![EEG Mental Commands outputs Demo](https://media.giphy.com/media/KDtFrtoNSdAaMXdC5n/giphy.gif)](https://youtu.be/h4VI_mme5BQ)
+[![EEG Mental Commands outputs Demo](EmotivBCI-Testing.gif)](https://youtu.be/h4VI_mme5BQ)
 
 
 ## Run the app locally
